@@ -13,4 +13,4 @@ bert_classification.py is the original training script, which upsamples the data
 
 ## Model evaluation.
 
-In addition to the training script, the weights are also provided, along with a jupyter notebook in which these trained weights (resulting from bert_classification_batches.py) can be loaded. This notebook contains some evaluation statistics as well as experiments in generating predictions.
+In addition to the training script, the results on the training set are also provided as pickled files, along with a jupyter notebook in which these (resulting from bert_classification_batches.py) can be loaded. This notebook contains some evaluation statistics as well as experiments in generating predictions from the saved weights of the model, this file was too big to upload to github.
